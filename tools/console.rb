@@ -1,4 +1,7 @@
 require_relative '../config/environment.rb'
+require_relative '../startup.rb'
+require_relative '../venture_capitalist.rb'
+require_relative '../funding_round.rb'
 
 def reload
   load 'config/environment.rb'
